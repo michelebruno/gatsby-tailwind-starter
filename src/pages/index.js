@@ -127,8 +127,7 @@ function IndexPage() {
   return (
     <Layout>
       <Seo />
-      <title>Home Page</title>
-      <h1 style={headingStyles}>
+      <h1 style={headingStyles} className="text-3xl font-semibold">
         Congratulations
         <br />
         <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
